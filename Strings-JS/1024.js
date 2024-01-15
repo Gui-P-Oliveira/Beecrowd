@@ -2,7 +2,6 @@ var input = require('fs').readFileSync('stdin', 'utf8');
 var lines = input.split('\n');
 
 let N = parseInt(lines.shift());
-console.log
 
 for(let i = 0; i < N; ++i){
     let M = lines.shift().trim().split('');
